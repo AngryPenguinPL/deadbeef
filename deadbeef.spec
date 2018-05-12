@@ -87,7 +87,7 @@ Requires:	%{name} = %{version}-%{release}
 Development files and headers for %{name}.
 
 %prep
-%setup -q
+%setup -q -n deadbeef-1.8.0-alpha4
 %apply_patches
 autoreconf -fiv
 
