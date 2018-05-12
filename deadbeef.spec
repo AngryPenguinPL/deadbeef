@@ -31,7 +31,7 @@ Url:		http://deadbeef.sourceforge.net
 Source0:	http://sourceforge.net/projects/deadbeef/files/%{name}-1.8.0-alpha4.tar.bz2
 # remove objc code built on mac only causing libtool to get confused
 # something like this has already been done upstream
-Patch1:		deadbeef-0.7.2-libtool.patch
+#Patch1:		deadbeef-0.7.2-libtool.patch
 
 BuildRequires:	bison
 BuildRequires:	intltool >= 0.40
